@@ -1,0 +1,28 @@
+{
+  "name": "git-standup-wizard",
+  "version": "1.0.0",
+  "description": "A CLI workflow tool that automatically generates daily standup reports by scanning your local git repositories. Built with AI by Craftpipe",
+  "main": "index.js",
+  "bin": {
+    "git-standup-wizard": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "standup",
+    "cli",
+    "report",
+    "productivity"
+  ],
+  "author": "Craftpipe <support@heijnesdigital.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "*"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
